@@ -5,6 +5,10 @@ http_path = "/"
 css_dir = "dist"
 sass_dir = "src"
 
+# GitHub Dark will not work without this setting.  This leaves our /*[[base-color]]*/ among other stylish-specific tags
+output_style   = :expanded
+environment    = :production
+
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
 
@@ -17,6 +21,6 @@ sass_dir = "src"
 
 # If you prefer the indented syntax, you might want to regenerate this
 # project again passing --syntax sass, or you can uncomment this:
-# preferred_syntax = :sass
+preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
