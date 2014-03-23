@@ -1,0 +1,93 @@
+/* GitHub Enterprise Only
+ *                                 _____..---========+*+==========---.._____
+ *    ______________________ __,-='=====____  =================== _____=====`=
+ *   (._____________________I__) - _-=_/    `---------=+=--------'
+ *       /      /__...---===='---+---_'
+ *      '------'---.___ -  _ =   _.-'
+ *                     `--------'
+ */
+
+.enterprise {s
+  #network #ng canvas {
+    background: none transparent !important;
+    opacity: 1 !important;
+  }
+  &.page-profile .profilecols ul.stats li strong {
+    color: #CCC;
+    background: transparent !important;
+  }
+  ul.selling-points li {
+    color: #FFF;
+  }
+  .steps {
+    margin: 20px auto 0;
+    padding: 15px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    background: #222;
+    color: #FFF;
+  }
+  .dashboard-notice {
+    background: #222 !important;
+    color: #CCC;
+  }
+  .autocomplete-item {
+    color: #CCC;
+  }
+  .repo-nav a {
+    &:focus, &:hover {
+      border-radius: 0 !important;
+      border-left: #eee 1px solid !important;
+    }
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .repo-menu {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .repo-nav {
+    a .counter {
+      text-shadow: none !important;
+      box-shadow: none !important;
+    }
+    li > .selected:after {
+      background: #333 none !important;
+      border-color: #555 !important;
+    }
+  }
+  .repo-nav-contents {
+    box-shadow: inset 1px 0 0 #333 !important;
+  }
+  div.repo-nav-contents {
+    background: rgba(34, 34, 34, 0.4) !important;
+  }
+  ul.repo-menu a.selected {
+    border-left: transparent 1px solid !important;
+  }
+  .repo-menu-separator {
+    border-bottom: #333 1px solid !important;
+  }
+  .repo-nav a.selected .octicon {
+    color: #eee !important;
+  }
+  .repo-menu {
+    a.selected:after, li:hover .octicon {
+      color: #eee !important;
+    }
+  }
+  .repo-menu-separator:before, .repo-nav-contents:before, .repo-menu-separator, .repo-nav-contents:after {
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+  .repo-nav a {
+    &:focus, &:hover {
+      border-radius: 0 !important;
+      border-left: #eee 1px solid !important;
+    }
+  }
+  ul.repo-menu a.selected {
+    border-color: #333 !important;
+  }
+}

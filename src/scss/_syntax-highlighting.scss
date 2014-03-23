@@ -1,0 +1,78 @@
+/* GitHub-Dark syntax highlighting */
+
+.highlight {
+  background-color: #111 !important;
+  color: #d0d0d0 !important;
+  pre:not(.diff-line-pre), table {
+    background-color: #111 !important;
+    color: #d0d0d0 !important;
+  }
+  .hll {
+    background-color: #404040 !important;
+  }
+  .err {
+    color: #a61717 !important;
+    background-color: #311 !important;
+  }
+  .o {
+    color: #777 !important;
+  }
+  .p {
+    color: #E9B96E !important;
+  }
+  .cs {
+    color: #e50808 !important;
+    background-color: #520000 !important;
+  }
+  .gi {
+    color: #589819 !important;
+  }
+  .gp {
+    color: #aaa !important;
+  }
+  .nf {
+    color: #098 !important;
+  }
+  .w {
+    color: #666 !important;
+  }
+  .c, .cm, .c1 {
+    color: #3677a9 !important;
+  }
+  .g, .l, .x, .ge, .gs, .ld, .ni, .nl, .nx, .py {
+    color: #d0d0d0 !important;
+  }
+  .k, .n, .go {
+    color: #ccc !important;
+  }
+  .cp, .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .s1, .ss {
+    color: #D2691E !important;
+  }
+  .gd, .gr, .gt {
+    color: #d22323 !important;
+  }
+  .gh, .gu {
+    color: #fff !important;
+  }
+  .kc, .kd, .kn, .kp, .kr, .kt, .nt, .ow {
+    color: #6ab825 !important;
+  }
+  .m, .mf, .mh, .mi, .mo, .sr, .il {
+    color: #cd2828 !important;
+  }
+  .na, .ne {
+    color: #bbb !important;
+  }
+  .nb, .bp {
+    color: #24909d !important;
+  }
+  .nc, .nn {
+    color: #447fcf !important;
+  }
+  .no, .nv, .vc, .vg, .vi {
+    color: #4ca !important;
+  }
+  .nd, .sx {
+    color: orange !important;
+  }
+}

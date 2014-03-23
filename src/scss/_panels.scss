@@ -1,0 +1,237 @@
+/** All things Panels **/
+
+/* === #333 === */
+/* Panel background (#333) only */
+
+.select-menu-modal .select-menu-tabs a.selected, .discusion-topic-infobar, table.branches tr:hover td, ol.steps li.current, .dropdown-menu, .outdated-diff-comment-container .discussion-item-icon, .discussion-item-ref .discussion-item-icon {
+  background: #333 !important;
+}
+
+.range-editor {
+  .range, span.flag {
+    background: #333 !important;
+  }
+}
+
+.octicon-repo-push.discussion-item-icon, .octicon-code.discussion-item-icon, .new-discussion-timeline .discussion-item-icon, .menu-container, .bubble, .bubble-contents, .ellipsis-button {
+  background: #333 !important;
+}
+
+/* Panel background (#333), leave image, no border, with radius */
+
+.pagehead ul.actions a.feed, .explore h2 .feed, #code_search_instructions h2, td.inst, .metabox-loader, .pull-flag, .browser-content, .filterbar ul.filters li, .pagehead ul.tabs li.contextswitch, .blankslate, #wiki-header > div, .pagehead ul.tabs li.contextswitch:hover, .bigbutton a, #new_message, #gollum-editor, #issues_next ul.sorts li {
+  background-color: #333 !important;
+  border: 0 !important;
+  border-radius: 3px !important;
+  background-clip: padding-box !important;
+  color: #ddd !important;
+}
+
+ul.sorts li {
+  &.asc, &.desc {
+    background-color: #333 !important;
+    border: 0 !important;
+    border-radius: 3px !important;
+    background-clip: padding-box !important;
+    color: #ddd !important;
+  }
+}
+
+.listings-layout .columns.main .content, .fieldswrap, .filterbar li.selected, #issues_next ul.filters li, table.instruction tr:nth-child(2n), .email-hidden-toggle a, #commit-activity-master-head, #wiki-footer > div, #gist-form .name, .range-editor-form, .action-indicator, .branch-name, .pull-head .diffstat, ul.suggestions, .accordion, .accordion-container {
+  background-color: #333 !important;
+  border: 0 !important;
+  border-radius: 3px !important;
+  background-clip: padding-box !important;
+  color: #ddd !important;
+}
+
+/* Panel background (#333), leave image, with border, no radius */
+
+.metabox .rule, .comment-form, #issues .labels, #gollum-editor select, .listings .odd, .feed {
+  background-color: #333 !important;
+  border-color: #555 !important;
+}
+
+#files {
+  .description, .file {
+    background-color: #333 !important;
+    border-color: #555 !important;
+  }
+}
+
+#message .envelope .header .info .title.unread, li.contextswitch ul li.current, .watcher-widget {
+  background-color: #333 !important;
+  border-color: #555 !important;
+}
+
+ul {
+  &.main_nav li.selected a, &.states li {
+    background-color: #333 !important;
+    border-color: #555 !important;
+  }
+}
+
+.add_file, .tree-browser, .inset, li.label, .filterbar, .divider-vertical, #footer .upper_footer, .user-commits td, .thread-subscription-status, .starting-comment .infobar, #issues_next .infobar, .formbody, .commandbar .display, .none p, .display div.choice, #contributors h3, .select-menu-modal, ul.fieldpills li, .select-menu-modal > div, .documentation-results a, pre div[style^="background-color: rgb(255, 255, 204);"], .plans-pricing-callout, .svg-tip, .auto-search-group .search-filters, .auth-form-body {
+  background-color: #333 !important;
+  border-color: #555 !important;
+}
+
+/* Panel background (#333), no image, no border */
+
+.pagehead ul.tabs li a:hover, .repos .bottom-bar, #languages .popular, .color-label-list a.selected, .tip-box h4, table.upgrades td {
+  background: #333 none !important;
+  border: 0 !important;
+}
+
+.commit-preview {
+  .message, p.error {
+    background: #333 none !important;
+    border: 0 !important;
+  }
+}
+
+.date_selector, .pagehead ul.tabs li.contextswitch, #browser tr th, .status-box h4, .line_numbers, .date_selector table th, #files span.icon, #issues_list .actions, #repos .public, .inset-callout, #repo-message, .summary-stats li a:hover, #files .file .meta, .boxed-group {
+  background: #333 none !important;
+  border: 0 !important;
+}
+
+/* Panel background (#333), no image, with border */
+
+#files .file .data .line_numbers {
+  background: #333 none !important;
+  border-color: #555 !important;
+}
+
+.editbox {
+  background: #333 none !important;
+  border-color: #555 !important;
+  .body {
+    background: #333 none !important;
+    border-color: #555 !important;
+  }
+}
+
+.commentstyle, #issues .display, .inline-comment-form {
+  background: #333 none !important;
+  border-color: #555 !important;
+}
+
+#issues {
+  .display .admin, .labels .list li {
+    background: #333 none !important;
+    border-color: #555 !important;
+  }
+}
+
+.issue .summary, .plain, .hidden-text-expander a, .view-modes, #ng canvas, .standard_form, #reply_body {
+  background: #333 none !important;
+  border-color: #555 !important;
+}
+
+#commit {
+  div, td, tr, .envelope {
+    background: #333 none !important;
+    border-color: #555 !important;
+  }
+}
+
+.file-minibutton, .context-pane .title, .browser .listing:hover, #dashboard .repos, .date_selector .button, .selectable_day, .file-box .icon {
+  background: #333 none !important;
+  border-color: #555 !important;
+}
+
+.list-module {
+  .list-body, a {
+    background: #333 none !important;
+    border-color: #555 !important;
+  }
+}
+
+.label-permissions, .tree-browser th, .filter-bar, .browser .listing.closed, .starting-comment, .section-nav a:hover, .chzn-drop, .full-width-divider, #issues_next .labels .label a, .module .inner, .inline-comment-form a.selected, .team-repositories-blankslate, .discussion-event-status-head_ref_deleted .discussion-item-icon, .pull-head {
+  background: #333 none !important;
+  border-color: #555 !important;
+}
+
+#issues_next > .browser_header ul.actions li.selected {
+  background: #333 !important;
+  margin-top: 3px !important;
+  padding: 5px 5px 2px 5px !important;
+  border-color: #333 !important;
+  border-radius: 3px 3px 0 0 !important;
+  background-clip: padding-box !important;
+}
+
+.comment-content, .gist .gist-file .gist-meta {
+  border-radius: 0 0 3px 3px !important;
+}
+
+/* === #444 === */
+/* Light Panel background (#444), no image, no border, with radius */
+
+ul.sidetabs li a:hover, .editbox h1, #issues .labels .admin, p.breadcrumb, #issues .display .sortbar, #facebox .close, #issues_search .wrapper, .ranked-repositories .meta a, .range-editor h3, .actor, .range-editor .chooser, ul.nav.logged_out, .tip-box a.next, #inbox .list .unread, #preview_bucket, .main .filterbar, .browser-content .footerbar, ul.smalltabs, .snippet, .supportstaffer, .discussion-form {
+  background: #444 none !important;
+  border: 0 !important;
+  border-radius: 3px !important;
+  background-clip: padding-box !important;
+}
+
+.chooser-box {
+  background: #444 none !important;
+  border: 0 !important;
+  border-radius: 3px !important;
+  background-clip: padding-box !important;
+  h3 {
+    background: #444 none !important;
+    border: 0 !important;
+    border-radius: 3px !important;
+    background-clip: padding-box !important;
+  }
+}
+
+#forkqueue .instructions, .input, .ac_results, .selector-item.clear:hover, #contributors-master svg, .inset-callout h2, .documentation ul.nav, #contributors-master, .flash-messages, .context-title, .list-module h2, .bootcamp-help h1 {
+  background: #444 none !important;
+  border: 0 !important;
+  border-radius: 3px !important;
+  background-clip: padding-box !important;
+}
+
+/* Light Panel background (#444), no image, with border, no radius */
+
+.tabs, #browser td, #issues_next li.selected, .selectable_day.selected, .avatarname img, #readme .name, #wiki-history .author img, .options-content h3, .display div.choice:nth-child(2n+1), #issues-dashboard .actions, .list-tip a:hover, .boxed-group-list > li:hover, .preview-selected .preview-tab, .select-menu-tabs a.selected, .sunken-menu .sunken-menu-item.selected:after, #files .file .meta .info span.diffstat {
+  background: #333 none !important;
+  border-color: #555 !important;
+}
+
+/* Light Panel background (#444), leave image and border */
+
+ul {
+  &.bignav li a:hover, &.smallnav li a:hover {
+    background-color: #444 !important;
+  }
+}
+
+.comments-wrapper, .rackspace, .filter-item:not(.color-label):hover, .subnav-bar > ul > li > ul > li > a:hover, ol.download-list li:nth-child(2n), .issue.active, .select-menu-button:after, .counter, .orgs-nav .count, ul.filter-list .filter-item:hover {
+  background-color: #444 !important;
+}
+
+/* === #555 === */
+/* Highlight Panel background (#555), leave image, no border, with radius */
+
+.paging, .button-pager, #integration-branch, .selectable_day.hover, .switcher > span:after, .list-module a:hover, .section-nav .active a, #dashboard .filter-bar li a.filter_selected:after {
+  background-color: #555 !important;
+  border: 0 !important;
+  border-radius: 3px !important;
+  background-clip: padding-box !important;
+}
+
+.state-widget .behind .bar, .settings-email .label:not(.default), .key, .date:after {
+  background: #555 !important;
+}
+
+.diverge-widget .separator {
+  background: #ccc !important;
+}
+
+.state-widget .ahead .bar, .oauth-connection-illustration .oauth-image {
+  background: #999 !important;
+}

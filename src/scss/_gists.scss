@@ -1,0 +1,17 @@
+/* secret gists */
+
+.gist-item.vis-secret {
+  .bubble {
+    background-color: #a1882b !important;
+  }
+  .file-box {
+    border: 1px solid #a1882b !important;
+  }
+  .line-numbers {
+    background-color: #a1882b !important;
+    border-color: #a1882b !important;
+    span {
+      color: #a1882b !important;
+    }
+  }
+}

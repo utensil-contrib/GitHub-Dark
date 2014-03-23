@@ -1,0 +1,136 @@
+/* diff highlighting (no syntax highlight) */
+/* main diff text color */
+
+.diff-line-pre {
+  color: #ccc !important;
+}
+
+.highlight .gc td {
+  border-top: 1px solid #333 !important;
+  border-bottom: 1px solid #333 !important;
+}
+
+#header-wrapper, .menu li + li {
+  border-bottom: 1px solid #333 !important;
+}
+
+.js-release-form .drag-and-drop {
+  border-top: none !important;
+}
+
+/* light grey - breaks in diff (with line numbers) */
+
+.highlight {
+  .gc {
+    td, pre {
+      background: #222 !important;
+      color: #888 !important;
+    }
+  }
+  .gu {
+    background: #222 !important;
+    color: #888 !important;
+  }
+  .gi {
+    background: #030 !important;
+    border-color: #080 !important;
+    pre {
+      background: #030 !important;
+      border-color: #080 !important;
+    }
+  }
+}
+
+/* git diff line additions (dark green) */
+
+.gi .diff-line-code {
+  background: #030 !important;
+  border-color: #080 !important;
+  pre {
+    background: #030 !important;
+    border-color: #080 !important;
+  }
+}
+
+.markdown-body {
+  ins {
+    background: #030 !important;
+    border-color: #080 !important;
+    > * {
+      background: #030 !important;
+      border-color: #080 !important;
+    }
+  }
+  .added {
+    background: #030 !important;
+    border-color: #080 !important;
+    box-shadow: inset 4px 0 0 #080 !important;
+  }
+  > ins {
+    box-shadow: inset 4px 0 0 #080 !important;
+  }
+}
+
+/* git diff line deletions (dark red) */
+
+.highlight .gd {
+  background: #400 !important;
+  border-color: #800 !important;
+}
+
+.gd .diff-line-code {
+  background: #400 !important;
+  border-color: #800 !important;
+  pre {
+    background: #400 !important;
+    border-color: #800 !important;
+  }
+}
+
+.markdown-body {
+  del {
+    background: #400 !important;
+    border-color: #800 !important;
+    > * {
+      background: #400 !important;
+      border-color: #800 !important;
+    }
+  }
+  .removed {
+    background: #400 !important;
+    border-color: #800 !important;
+    box-shadow: inset 4px 0 0 #800 !important;
+  }
+  > del {
+    box-shadow: inset 4px 0 0 #800 !important;
+  }
+}
+
+/* git diff inline additions (green) */
+
+.highlight {
+  .gi .x {
+    background: #252 !important;
+    color: #eee !important;
+  }
+  .gd .x {
+    background: #622 !important;
+    color: #eee !important;
+  }
+}
+
+/* git diff inline deletions (red) */
+
+/* git diff line numbers (med green) */
+
+.gi .diff-line-num {
+  background: #020 !important;
+  border-color: #040 !important;
+}
+
+/* git diff line deletions (med red) */
+
+.gd .diff-line-num {
+  background: #300 !important;
+  border-color: #500 !important;
+}
