@@ -1,0 +1,26 @@
+{
+  "name": "GitHub-Dark",
+  "version": "2.0.0",
+  "description": "Dark Stylish Theme for GitHub",
+  "main": "Gruntfile.coffee",
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StylishThemes/GitHub-Dark.git"
+  },
+  "author": [
+    "Daniel Davison <sircapsalot@gmail.com>",
+    "Joel Worsham <joel.worsham@gmail.com>"
+  ],
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/StylishThemes/GitHub-Dark/issues"
+  },
+  "homepage": "https://github.com/StylishThemes/GitHub-Dark",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-compass": "*"
+  }
+}
