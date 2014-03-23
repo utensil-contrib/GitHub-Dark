@@ -8,3 +8,4 @@ node_js:
 before_script:
   - rm -rf node_modules
   - npm install
+  - npm install -g grunt-cli
