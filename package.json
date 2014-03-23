@@ -4,7 +4,8 @@
   "description": "Dark Stylish Theme for GitHub",
   "main": "Gruntfile.coffee",
   "scripts": {
-    "test": "grunt travis --verbose"
+//    "test": "grunt travis --verbose"
+    "test": ""
   },
   "repository": {
     "type": "git",
