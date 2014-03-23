@@ -1,3 +1,7 @@
+### Build Status
+[![Build Status](https://secure.travis-ci.org/StylishThemes/GitHub-Dark.png)](http://travis-ci.org/StylishThemes/GitHub-Dark)
+
+
 ## GitHub Dark theme for Stylish
 - Install from [userstyles.org](http://userstyles.org/styles/37035) (with customization options) or [manually](https://raw.github.com/StylishThemes/GitHub-Dark/master/github-dark.css).
 - Stylish is available for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/2108/), [Chrome](https://chrome.google.com/extensions/detail/fjnbnpbmkenffdnngjfgmeleoegfcffe) and [Opera](https://addons.opera.com/en/extensions/details/stylish-for-opera/).

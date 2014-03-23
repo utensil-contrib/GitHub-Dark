@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/StylishThemes/GitHub-Dark",
   "devDependencies": {
-    "grunt": "~0.4.4",
+    "grunt": "*",
     "grunt-contrib-compass": "*"
   }
 }
