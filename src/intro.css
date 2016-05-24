@@ -1,0 +1,9 @@
+@-moz-document regexp("^https?://((gist|guides|help|raw|status|developer)\.)?github\.com((?!generated_pages\/preview).)*$"), domain("render.githubusercontent.com"), domain("raw.githubusercontent.com") {
+  /*! Github Dark Theme v2.0.0 (5/24/2016) *//*
+ * https://github.com/StylishThemes/GitHub-Dark
+ * http://userstyles.org/styles/37035
+ * License: https://creativecommons.org/licenses/by-sa/4.0/
+ */
+  /* AGENT_SHEET */
+
+

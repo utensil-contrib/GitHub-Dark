@@ -1,0 +1,21 @@
+/* text selection */
+::selection {
+  background-color: /*[[base-color]]*/ #4183C4 !important;
+  color: #fff !important;
+}
+::-moz-selection {
+  background-color: /*[[base-color]]*/ #4183C4 !important;
+  color: #fff !important;
+}
+.ace_selection {
+  background-color: /*[[base-color]]*/ #4183C4 !important;
+  color: #fff !important;
+}
+/* placeholder */
+::-webkit-input-placeholder {
+  color: #444 !important;
+}
+::-moz-placeholder {
+  color: #444 !important;
+  opacity: 1 !important;
+}

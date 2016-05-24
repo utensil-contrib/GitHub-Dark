@@ -1,0 +1,47 @@
+.octotree_views .octotree_treeview .jstree-anchor .jstree-icon.tree:before,
+.octotree_github_sidebar a.octotree_toggle:hover,
+.octotree_github_sidebar a.octotree_opts:hover,
+.octotree_github_sidebar a.octotree_opts.selected,
+.octotree_github_sidebar .octotree_views .octotree_treeview .jstree-anchor,
+.octotree_github_sidebar a.octotree_toggle:not(.octotree_loading):hover {
+  color: /*[[base-color]]*/ #4183C4 !important;
+}
+.octotree_views .octotree_view .octotree_view_header {
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+.octotree_sidebar {
+  background: #181818 !important;
+  border-color: #343434 !important;
+}
+.octotree_toggle .loader {
+  -webkit-filter: invert(100%) hue-rotate(180deg) !important;
+          filter: invert(100%) hue-rotate(180deg) !important;
+}
+.octotree_toggle:hover {
+  background: linear-gradient(#444,#333) !important;
+  border-color: #484848 !important;
+}
+/* dark grey gradient */
+.octotree_view_header, .octotree_toggle {
+  background: linear-gradient(#282828,#181818) !important;
+  border-color: #383838 !important;
+}
+.octotree_github_sidebar a.octotree_toggle {
+  color: #e0e0e0 !important;
+}
+.octotree_github_sidebar a.octotree_opts, .octotree_help > span {
+  color: #c0c0c0 !important;
+}
+/* octotree icons */
+a.octotree_toggle:not(.octotree_loading) > span:after,
+.octotree_github_sidebar a.octotree_opts, .octotree_help > span {
+  -webkit-filter: invert(100%) !important;
+          filter: invert(100%) !important;
+}
+a.octotree_toggle:not(.octotree_loading):hover > span:after,
+.octotree_github_sidebar a.octotree_opts:hover,
+.octotree_treeview .jstree-icon.tree {
+  -webkit-filter: grayscale(100%) !important;
+          filter: grayscale(100%) !important;
+}

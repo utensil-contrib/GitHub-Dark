@@ -1,0 +1,68 @@
+/* light grey gradient */
+.btn:hover, .btn:active, .btn.zeroclipboard-is-hover,
+.btn.zeroclipboard-is-active, .minibutton:hover, .minibutton:active,
+.minibutton.zeroclipboard-is-hover, .minibutton.zeroclipboard-is-active.kbd,
+.signup-button:hover, a.signin:hover, .hero .textographic,
+.hero .screenographic, .pagination span.current, .box-action:active,
+.btn:active, .btn.selected, .btn.selected:hover, .btn.zeroclipboard-is-active,
+.minibutton:active, .minibutton.selected, .minibutton.selected:hover,
+.minibutton.zeroclipboard-is-active, .octotree_toggle:hover,
+button.button:hover, a.button:hover, span.button:hover,
+button.minibutton:hover, a.minibutton:hover, span.minibutton:hover,
+.clone-url-button.selected > .clone-url-link,
+.clone-url-button.selected > .clone-url-link:hover {
+  background: linear-gradient(#444,#333) !important;
+  border-color: #484848 !important;
+}
+/* dark grey gradient */
+.btn, input.btn, header.nav-bar, .bubble .bubble-title, kbd, a.feed,
+.list-browser-filterbar, .gobutton, .comment-header, .pagehead ul.tabs li a,
+.login_form input[type="submit"], .top-bar, ul#bootcamp li a h4,
+#gists .context-menu-container, body#com #header, .white-nav .selected span,
+.filter-tab, #header-wrapper, #header-wrapper .nav, .pagination span,
+.cheatsheet h2, .section a.section-head, .octotree_view_header, .list-heading,
+.dashboard-tabs li a, a.function-button, .add-pill-form,
+.gist .gist-file .gist-meta, .octotree_toggle, ul.comparison-list > li.title,
+button.button, a.button, span.button, button.minibutton, a.minibutton,
+span.minibutton, .clone-url-button > .clone-url-link {
+  background: linear-gradient(#282828,#181818) !important;
+  border-color: #383838 !important;
+}
+.search-form button, .box-header, .issues-list-actions, a.gollum-minibutton,
+a.gollum-minibutton:visited {
+  background: linear-gradient(#282828,#181818) !important;
+}
+/* inverted dark grey gradient */
+.asc .sort-type, .desc .sort-type, .mini-bar-graph, .issues-list>ul>li.unread,
+.timeline-commits-header, .usage-bar dd, .render-bar {
+  background: linear-gradient(#181818,#282828) !important;
+  border-color: #383838 !important;
+}
+/* semi-transparent */
+.pagehead, .context-loader.large-format-loader, #graphs .loader,
+.org-header, .render-shell .slider, .illflow-item:not(.selected):hover,
+.leaflet-control-attribution {
+  background: rgba(24,24,24,.4) !important;
+}
+.explore-signup-entice-inner {
+  background: rgba(24,24,24,.9) !important;
+}
+.starred-repo.navigation-focus, .marketing-section-stripe,
+.blob-expanded .blob-num, .blob-expanded .blob-code, .migration-section-grey {
+  background: rgba(50,50,50,.5) !important;
+}
+.svg-tip {
+  background: rgba(12,12,12,.8) !important;
+}
+.svg-tip:after {
+  border-top-color: rgba(12,12,12,.9) !important;
+}
+.shelf {
+  background-color: rgba(0,0,0,.2) !important;
+  background-image: none !important;
+}
+/* page overlay */
+.select-menu-loading-overlay, .slow-loading-overlay,
+.branches .loading-overlay {
+  background-color: rgba(24,24,24,.6) !important;
+}

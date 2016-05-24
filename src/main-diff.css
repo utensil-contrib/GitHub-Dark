@@ -1,0 +1,83 @@
+/* diff highlighting (no syntax highlight) */
+/* main diff text color */
+.diff-line-pre {
+  color: #ccc !important;
+}
+.diff-table .line-comments {
+  border-top: 1px solid #333 !important;
+  border-bottom: 1px solid #333 !important;
+}
+#header-wrapper, .menu li + li {
+  border-bottom: 1px solid #333 !important;
+}
+.js-release-form .drag-and-drop {
+  border-top: none !important;
+}
+/* light grey - breaks in diff (with line numbers) */
+.highlight .expandable-line-num, .highlight .diff-line-num-hunk,
+.highlight .diff-line-code-hunk, .highlight .expandable-line-code {
+  background: #222 !important;
+  color: #888 !important;
+}
+/* git diff line additions (dark green) */
+.blob-code.blob-code-addition, .blob-num.blob-num-addition,
+.prose-diff .changed ins, .prose-diff .changed ins code,
+.prose-diff .changed ins pre, .prose-diff .changed .added,
+.prose-diff > .markdown-body ins pre, .prose-diff > .markdown-body ins code,
+.prose-diff > .markdown-body ins > div, .prose-diff > .markdown-body ins > p {
+  background: #002800 !important;
+  border-color: #060 !important;
+}
+/* git diff line deletions (dark red) */
+.blob-code.blob-code-deletion, .blob-num.blob-num-deletion,
+.prose-diff > .markdown-body .changed del,
+.prose-diff > .markdown-body .changed del pre,
+.prose-diff > .markdown-body .changed del code,
+.prose-diff > .markdown-body .changed del > div,
+.prose-diff > .markdown-body .changed .removed,
+.prose-diff > .markdown-body .changed .removed pre,
+.prose-diff > .markdown-body .changed .removed code,
+.prose-diff > .markdown-body .changed .removed > div {
+  background: #380000 !important;
+  border-color: #600 !important;
+}
+/* hover highlight in code and diffs */
+.diff-table tr:hover > pre,
+.highlight:not(.lines) tr:not(.inline-comments):hover td:not(.line-age):not([style^="background-color: rgb(248, 238, 199)"]) {
+  background: rgba(78,78,78,.33) !important;
+}
+.highlight:not(.lines) tr:not(.inline-comments):hover td.blob-num-addition:not(.line-age),
+.highlight:not(.lines) tr:not(.inline-comments):hover td.blob-code-addition:not(.line-age) {
+  background: #103810 !important;
+}
+.highlight:not(.lines) tr:not(.inline-comments):hover td.blob-num-deletion:not(.line-age),
+.highlight:not(.lines) tr:not(.inline-comments):hover td.blob-code-deletion:not(.line-age) {
+  background: #481010 !important;
+}
+.highlight:not(.lines) tr:not(.inline-comments):hover td.selected-line.blob-num:not(.line-age),
+.highlight:not(.lines) tr:not(.inline-comments):hover td.selected-line.blob-code:not(.line-age),
+.highlight tr:not(.inline-comments):hover td[style^="background-color: rgb(248, 238, 199)"] {
+  background: #363610 !important;
+}
+.prose-diff > .markdown-body th.changed,
+.prose-diff > .markdown-body td.changed {
+  background: #282818 !important;
+}
+.blob-code-addition .x, .highlight .blob-code-addition .x {
+  background: #252 !important;
+  color: #eee !important;
+}
+.blob-code-deletion .x, .highlight .blob-code-deletion .x {
+  background: #622 !important;
+  color: #eee !important;
+}
+/* git diff line numbers (med green) */
+.gi .diff-line-num, .gi .diff-line-code, .gi .diff-line-pre {
+  background: #020 !important;
+  border-color: #040 !important;
+}
+/* git diff line deletions (med red) */
+.gd .diff-line-num, .highlight .err, .gd .diff-line-code, .gd .diff-line-pre {
+  background: #300 !important;
+  border-color: #500 !important;
+}
