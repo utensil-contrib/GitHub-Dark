@@ -1,0 +1,104 @@
+/*! GitHub: RailsCasts */
+/* https://github.com/chriskempson/base16-vim/blob/master/colors/base16-railscasts.vim */
+
+.highlight, .CodeMirror {
+  background-color: #2b2b2b !important;
+  color: #e6e1dc !important;
+}
+.blob-code, .blob-code-inner {
+  color: #e6e1dc !important;
+}
+.pl-c, .pl-c span{ color: #5a647e !important; font-style: italic !important; } /* comment */
+.pl-c1 { color: #b6b3eb !important; } /* constant */
+.pl-cce { color: #6d9cbe !important; } /* constant.character.escape */
+.pl-cn { color: #6d9cbe !important; } /* constant.numeric */
+.pl-coc { color: #6d9cbe !important; } /* constant.other.color */
+.pl-cos { color: #cc7833 !important; } /* constant.other.symbol */
+.pl-e { color: #a5c261 !important; } /* entity */
+.pl-ef { color: #a5c261 !important; } /* entity.function */
+.pl-en { color: #a5c261 !important; } /* entity.name */
+.pl-enc { color: #6d9cbe !important; } /* entity.name.class */
+.pl-enf { color: #a5c261 !important; } /* entity.name.function */
+.pl-enm { color: #a5c261 !important; } /* entity.name.method-name */
+.pl-ens { color: #6d9cbe !important; } /* entity.name.section */
+.pl-ent { color: #da4939 !important; } /* entity.name.tag */
+.pl-entc { color: #a5c261 !important; } /* entity.name.type.class */
+.pl-enti { color: #a5c261 !important; font-weight: bold !important; } /* entity.name.type.instance */
+.pl-entm { color: #a5c261 !important; } /* entity.name.type.module */
+.pl-eoa { color: #da4939 !important; } /* entity.other.attribute-name */
+.pl-eoac { color: #a5c261 !important; } /* entity.other.attribute-name.class */
+.pl-eoac .pl-pde { color: #a5c261 !important; } /* punctuation.definition.entity */
+.pl-eoai { color: #da4939 !important; } /* entity.other.attribute-name.id */
+.pl-eoai .pl-pde { color: #da4939 !important; } /* punctuation.definition.entity */
+.pl-eoi { color: #a5c261 !important; } /* entity.other.inherited-class */
+.pl-k { color: #da4939 !important; } /* keyword */
+.pl-ko { color: #da4939 !important; } /* keyword.operator */
+.pl-kolp { color: #da4939 !important; } /* keyword.operator.logical.python */
+.pl-kos { color: #6d9cbe !important; } /* keyword.other.special-method */
+.pl-kou { color: #6d9cbe !important; } /* keyword.other.unit */
+.pl-mai .pl-sf { color: #a5c261 !important; } /* support.function */
+.pl-mb { color: #ffc66d !important; font-weight: bold !important; } /* markup.bold */
+.pl-mc { color: #da4939 !important; } /* markup.changed */
+.pl-mh .pl-pdh { color: #6d9cbe !important; } /* markup.heading punctuation.definition.heading */
+.pl-mi { color: #da4939 !important; font-style: italic !important; } /* markup.italic */
+.pl-ml { color: #ffc66d !important; } /* markup.list */
+.pl-mm { color: #a5c261 !important; } /* meta.module-reference */
+.pl-mp { color: #6d9cbe !important; } /* meta.property-name */
+.pl-mp1 .pl-sf { color: #6d9cbe !important; } /* meta.property-value support.function */
+.pl-mq { color: #6d9cbe !important; } /* markup.quote */
+.pl-mr { color: #da4939 !important; } /* meta.require */
+.pl-ms { color: #da4939 !important; } /* meta.selector */
+.pl-pdb { color: #ffc66d !important; font-weight: bold !important; } /* punctuation.definition.bold */
+.pl-pdc { color: #5a647e !important; font-style: italic !important; } /* punctuation.definition.comment */
+.pl-pdc1 { color: #b6b3eb !important; } /* punctuation.definition.constant */
+.pl-pde { color: #6d9cbe !important; } /* punctuation.definition.entity */
+.pl-pdi { color: #da4939 !important; font-style: italic !important; } /* punctuation.definition.italic */
+.pl-pds { color: #ffc66d !important; } /* punctuation.definition.string */
+.pl-pdv { color: #a5c261 !important; } /* punctuation.definition.variable */
+.pl-pse { color: #6d9cbe !important; } /* punctuation.section.embedded */
+.pl-pse .pl-s2 { color: #6d9cbe !important; } /* punctuation.section.embedded source */
+.pl-s { color: #ffc66d !important; } /* storage */
+.pl-s1 { color: #ffc66d !important; } /* string */
+.pl-s2 { color: #e6e1dc !important; } /* source */
+.pl-mp .pl-s3 { color: #6d9cbe !important; } /* support */
+.pl-s3 { color: #da4939 !important; } /* support */
+.pl-sc { color: #cc7833 !important; } /* support.class */
+.pl-scp { color: #b6b3eb !important; } /* support.constant.property-value */
+.pl-sf { color: #cc7833 !important; } /* support.function */
+.pl-smc { color: #da4939 !important; } /* storage.modifier.c */
+.pl-smi { color: #6d9cbe !important; } /* storage.modifier.import */
+.pl-smp { color: #da4939 !important; } /* storage.modifier.package */
+.pl-sok { color: #da4939 !important; } /* support.other.keyword */
+.pl-sol { color: #ffc66d !important; } /* string.other.link */
+.pl-som { color: #a5c261 !important; } /* support.other.module */
+.pl-sr { color: #a5c261 !important; } /* string.regexp */
+.pl-sra { color: #da4939 !important; } /* string.regexp string.regexp.arbitrary-repetition */
+.pl-src { color: #da4939 !important; } /* string.regexp.character-class */
+.pl-sre { color: #da4939 !important; } /* string.regexp source.ruby.embedded */
+.pl-st { color: #6d9cbe !important; } /* support.type */
+.pl-stj { color: #e6e1dc !important; } /* storage.type.java */
+.pl-stp { color: #6d9cbe !important; } /* support.type.property-name */
+.pl-sv { color: #6d9cbe !important; } /* support.variable */
+.pl-v { color: #6d9cbe !important; } /* variable */
+.pl-vi { color: #6d9cbe !important; } /* variable.interpolation */
+.pl-vo { color: #a5c261 !important; } /* variable.other */
+.pl-vpf { color: #6d9cbe !important; } /* variable.parameter.function */
+/* Diff - Example: https://gist.github.com/silverwind/904159f1e71e2e626375 */
+.pl-mi1 { color: #a5c261 !important; background: rgba(0, 64, 0, .5) !important; } /* markup.inserted */
+.pl-mdht { color: #a5c261 !important; background: rgba(0, 64, 0, .5) !important; } /* meta.diff.header.to-file */
+.pl-md { color: #da4939 !important; background: rgba(64, 0, 0, .5) !important; } /* markup.deleted */
+.pl-mdhf { color: #da4939 !important; background: rgba(64, 0, 0, .5) !important; } /* meta.diff.header.from-file */
+.pl-mdr { color: #6d9cbe !important; font-weight: normal !important; } /* meta.diff.range */
+.pl-mdh { color: #a5c261 !important; font-weight: normal !important; } /* meta.diff.header */
+.pl-mdi { color: #a5c261 !important; font-weight: normal !important; } /* meta.diff.index */
+/* TODO: Fix unstyled classes below */
+.pl-ib { background-color: #a5c261 !important; color: #272822 !important; } /* invalid.broken */
+.pl-id { background-color: #a5c261 !important; color: #272822 !important; } /* invalid.deprecated */
+.pl-ii, .pl-ii .pl-cce { background-color: #a5c261 !important; color: #272822 !important; } /* invalid.illegal */
+.pl-iu { background-color: #a5c261 !important; color: #272822 !important; } /* invalid.unimplemented */
+.pl-mo { color: #cc7833 !important; } /* meta.output */
+.pl-mri { color: #6d9cbe !important; } /* markup.raw.inline */
+.pl-ms1 { background-color: #cc7833 !important; } /* meta.separator */
+.pl-va { color: #6d9cbe !important; } /* variable.assignment */
+.pl-vpu { color: #6d9cbe !important; } /* variable.parameter.url */
+.pl-entl { color: #cc7833 !important; } /* entity.name.tag.label */
