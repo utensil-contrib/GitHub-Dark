@@ -9,14 +9,14 @@
   color: #e6e1dc !important;
 }
 .pl-c, .pl-c span{ color: #BC9458 !important; font-style: italic !important; } /* comment */
-.pl-c1 { color: #6D9CBE !important; } /* constant */
-.pl-cce { color: #6d9cbe !important; } /* constant.character.escape */
+.pl-c1 { color: #d7ff7b !important; } /* constant */
+.pl-cce { color: #d7ff7b !important; } /* constant.character.escape */
 .pl-cn { color: #6d9cbe !important; } /* constant.numeric */
 .pl-coc { color: #6d9cbe !important; } /* constant.other.color */
 .pl-cos { color: #cc7833 !important; } /* constant.other.symbol */
 .pl-e { color: #E8BF6A !important; } /* entity */
 .pl-ef { color: #a5c261 !important; } /* entity.function */
-.pl-en { color: #a5c261 !important; } /* entity.name */
+.pl-en { color: #ffc66d !important; } /* entity.name */
 .pl-enc { color: #6d9cbe !important; } /* entity.name.class */
 .pl-enf { color: #a5c261 !important; } /* entity.name.function */
 .pl-enm { color: #a5c261 !important; } /* entity.name.method-name */
@@ -53,12 +53,12 @@
 .pl-pdc1 { color: #b6b3eb !important; } /* punctuation.definition.constant */
 .pl-pde { color: #6d9cbe !important; } /* punctuation.definition.entity */
 .pl-pdi { color: #da4939 !important; font-style: italic !important; } /* punctuation.definition.italic */
-.pl-pds { color: #ffc66d !important; } /* punctuation.definition.string */
+.pl-pds { color: #A5C261 !important; } /* punctuation.definition.string */
 .pl-pdv { color: #a5c261 !important; } /* punctuation.definition.variable */
 .pl-pse { color: #6d9cbe !important; } /* punctuation.section.embedded */
 .pl-pse .pl-s2 { color: #6d9cbe !important; } /* punctuation.section.embedded source */
-.pl-s { color: #ffc66d !important; } /* storage */
-.pl-s1 { color: #ffc66d !important; } /* string */
+.pl-s { color: #A5C261 !important; } /* storage */
+.pl-s1 { color: #A5C261 !important; } /* string */
 .pl-s2 { color: #e6e1dc !important; } /* source */
 .pl-mp .pl-s3 { color: #6d9cbe !important; } /* support */
 .pl-s3 { color: #da4939 !important; } /* support */
@@ -66,7 +66,7 @@
 .pl-scp { color: #b6b3eb !important; } /* support.constant.property-value */
 .pl-sf { color: #cc7833 !important; } /* support.function */
 .pl-smc { color: #da4939 !important; } /* storage.modifier.c */
-.pl-smi { color: #6d9cbe !important; } /* storage.modifier.import */
+.pl-smi { color: #d0d0ff !important; } /* storage.modifier.import */
 .pl-smp { color: #da4939 !important; } /* storage.modifier.package */
 .pl-sok { color: #da4939 !important; } /* support.other.keyword */
 .pl-sol { color: #ffc66d !important; } /* string.other.link */
@@ -79,7 +79,7 @@
 .pl-stj { color: #e6e1dc !important; } /* storage.type.java */
 .pl-stp { color: #6d9cbe !important; } /* support.type.property-name */
 .pl-sv { color: #6d9cbe !important; } /* support.variable */
-.pl-v { color: #6d9cbe !important; } /* variable */
+.pl-v { color: #d0d0ff !important; } /* variable */
 .pl-vi { color: #6d9cbe !important; } /* variable.interpolation */
 .pl-vo { color: #a5c261 !important; } /* variable.other */
 .pl-vpf { color: #6d9cbe !important; } /* variable.parameter.function */
