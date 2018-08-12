@@ -9,7 +9,7 @@
   color: #e6e1dc !important;
 }
 .pl-c, .pl-c span{ color: #5a647e !important; font-style: italic !important; } /* comment */
-.pl-c1 { color: #b6b3eb !important; } /* constant */
+.pl-c1 { color: #6D9CBE !important; } /* constant */
 .pl-cce { color: #6d9cbe !important; } /* constant.character.escape */
 .pl-cn { color: #6d9cbe !important; } /* constant.numeric */
 .pl-coc { color: #6d9cbe !important; } /* constant.other.color */
