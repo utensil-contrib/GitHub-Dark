@@ -9,9 +9,9 @@
   color: #e6e1dc !important;
 }
 .pl-c, .pl-c span{ color: #BC9458 !important; font-style: italic !important; } /* comment */
-.pl-c1 { color: #d7ff7b !important; } /* constant */
-.pl-cce { color: #d7ff7b !important; } /* constant.character.escape */
-.pl-cn { color: #6d9cbe !important; } /* constant.numeric */
+.pl-c1 { color: #6d9cbe !important; } /* constant */
+.pl-cce { color: #6d9cbe !important; } /* constant.character.escape */
+.pl-cn { color: #a5c261 !important; } /* constant.numeric */
 .pl-coc { color: #6d9cbe !important; } /* constant.other.color */
 .pl-cos { color: #cc7833 !important; } /* constant.other.symbol */
 .pl-e { color: #E8BF6A !important; } /* entity */
