@@ -8,13 +8,13 @@
 .blob-code, .blob-code-inner {
   color: #e6e1dc !important;
 }
-.pl-c, .pl-c span{ color: #5a647e !important; font-style: italic !important; } /* comment */
+.pl-c, .pl-c span{ color: #BC9458 !important; font-style: italic !important; } /* comment */
 .pl-c1 { color: #6D9CBE !important; } /* constant */
 .pl-cce { color: #6d9cbe !important; } /* constant.character.escape */
 .pl-cn { color: #6d9cbe !important; } /* constant.numeric */
 .pl-coc { color: #6d9cbe !important; } /* constant.other.color */
 .pl-cos { color: #cc7833 !important; } /* constant.other.symbol */
-.pl-e { color: #a5c261 !important; } /* entity */
+.pl-e { color: #E8BF6A !important; } /* entity */
 .pl-ef { color: #a5c261 !important; } /* entity.function */
 .pl-en { color: #a5c261 !important; } /* entity.name */
 .pl-enc { color: #6d9cbe !important; } /* entity.name.class */
@@ -31,7 +31,7 @@
 .pl-eoai { color: #da4939 !important; } /* entity.other.attribute-name.id */
 .pl-eoai .pl-pde { color: #da4939 !important; } /* punctuation.definition.entity */
 .pl-eoi { color: #a5c261 !important; } /* entity.other.inherited-class */
-.pl-k { color: #da4939 !important; } /* keyword */
+.pl-k { color: #CC7833 !important; } /* keyword */
 .pl-ko { color: #da4939 !important; } /* keyword.operator */
 .pl-kolp { color: #da4939 !important; } /* keyword.operator.logical.python */
 .pl-kos { color: #6d9cbe !important; } /* keyword.other.special-method */
