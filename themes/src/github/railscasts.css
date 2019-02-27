@@ -23,20 +23,20 @@ support, meta.property-name, support.constant, support.variable,
 .pl-ef { color: #FFC66D !important; } /* entity.function */
 /* entity.name */
 .pl-en { color: #FFC66D !important; }
-.pl-enc { color: #FFFFFF !important; } /* entity.name.class */
+.pl-enc { color: #FFF !important; } /* entity.name.class */
 .pl-enf { color: #FFC66D !important; } /* entity.name.function */
 .pl-enm { color: #FFC66D !important; } /* entity.name.method-name */
-.pl-ens { color: #FFFFFF !important; } /* entity.name.section */
+.pl-ens { color: #FFF !important; } /* entity.name.section */
 /* entity.name.tag */
-.pl-ent { color: #FFFFFF !important; }
+.pl-ent { color: #FFF !important; }
 .pl-entc { color: #FFC66D !important; } /* entity.name.type.class */
 .pl-enti { color: #FFC66D !important; font-weight: bold !important; } /* entity.name.type.instance */
 .pl-entm { color: #FFC66D !important; } /* entity.name.type.module */
-.pl-eoa { color: #FFFFFF !important; } /* entity.other.attribute-name */
+.pl-eoa { color: #FFF !important; } /* entity.other.attribute-name */
 .pl-eoac { color: #FFC66D !important; } /* entity.other.attribute-name.class */
 .pl-eoac .pl-pde { color: #FFC66D !important; } /* punctuation.definition.entity */
-.pl-eoai { color: #FFFFFF !important; } /* entity.other.attribute-name.id */
-.pl-eoai .pl-pde { color: #FFFFFF !important; } /* punctuation.definition.entity */
+.pl-eoai { color: #FFF !important; } /* entity.other.attribute-name.id */
+.pl-eoai .pl-pde { color: #FFF !important; } /* punctuation.definition.entity */
 .pl-eoi { color: #FFC66D !important; } /* entity.other.inherited-class */
 /* keyword, storage, storage.type */
 .pl-k { color: #CC7833 !important; }
@@ -48,26 +48,26 @@ support, meta.property-name, support.constant, support.variable,
 /* markup.bold */
 .pl-mb { color: #CC7833 !important; font-weight: bold !important; }
 /* markup.changed, punctuation.definition.changed */
-.pl-mc { color: #FFFFFF !important; }
+.pl-mc { color: #FFF !important; }
 /* markup.heading */
-.pl-mh { color: #FFFFFF !important; font-weight: normal !important; }
-.pl-mh .pl-pdh { color: #FFFFFF !important; } /* markup.heading punctuation.definition.heading */
+.pl-mh { color: #FFF !important; font-weight: normal !important; }
+.pl-mh .pl-pdh { color: #FFF !important; } /* markup.heading punctuation.definition.heading */
 /* markup.italic */
 .pl-mi { color: #CC7833 !important; font-style: italic !important; }
 /* markup.list */
 .pl-ml { color: #CC7833 !important; }
 .pl-mm { color: #FFC66D !important; } /* meta.module-reference */
-.pl-mp { color: #FFFFFF !important; } /* meta.property-name */
+.pl-mp { color: #FFF !important; } /* meta.property-name */
 .pl-mp1 .pl-sf { color: #FFC66D !important; } /* meta.property-value support.function */
 /* markup.quote */
-.pl-mq { color: #FFFFFF !important; }
+.pl-mq { color: #FFF !important; }
 .pl-mr { color: #CC7833 !important; } /* meta.require */
 /* meta.separator */
 .pl-ms { color: #CC7833 !important; }
 .pl-pdb { color: #CC7833 !important; font-weight: bold !important; } /* punctuation.definition.bold */
 .pl-pdc { color: #BC9458 !important; font-style: italic !important; } /* punctuation.definition.comment */
-.pl-pdc1 { color: #FFFFFF !important; } /* punctuation.definition.constant */
-.pl-pde { color: #FFFFFF !important; } /* punctuation.definition.entity */
+.pl-pdc1 { color: #FFF !important; } /* punctuation.definition.constant */
+.pl-pde { color: #FFF !important; } /* punctuation.definition.entity */
 .pl-pdi { color: #CC7833 !important; font-style: italic !important; } /* punctuation.definition.italic */
 /* punctuation.definition.string, source.regexp, string.regexp.character-class */
 .pl-pds { color: #CC7833 !important; }
@@ -86,7 +86,7 @@ support, meta.property-name, support.constant, support.variable,
 .pl-mp .pl-s3 { color: #CC7833 !important; } /* support */
 .pl-s3 { color: #CC7833 !important; } /* support */
 .pl-sc { color: #CC7833 !important; } /* support.class */
-.pl-scp { color: #FFFFFF !important; } /* support.constant.property-value */
+.pl-scp { color: #FFF !important; } /* support.constant.property-value */
 .pl-sf { color: #CC7833 !important; } /* support.function */
 .pl-smc { color: #DA4939 !important; } /* storage.modifier.c */
 /* variable.parameter.function, storage.modifier.package,
@@ -124,7 +124,7 @@ support, meta.property-name, support.constant, support.variable,
 .pl-md { color: #F92672 !important; background: #200 !important; }
 .pl-mdhf { color: #E6E1DC !important; background: #2F33AB !important; } /* meta.diff.header.from-file */
 /* meta.diff.range */
-.pl-mdr { color: #FFFFFF !important; font-weight: normal !important; }
+.pl-mdr { color: #FFF !important; font-weight: normal !important; }
 .pl-mdh { color: #FFC66D !important; font-weight: normal !important; } /* meta.diff.header */
 .pl-mdi { color: #FFC66D !important; font-weight: normal !important; } /* meta.diff.index */
 /* TODO: Fix unstyled classes below */
@@ -137,9 +137,9 @@ brackethighlighter.unmatched, sublimelinter.mark.error */
 /* constant.other.reference.link, string.other.link */
 .pl-corl { text-decoration: underline !important; }
 .pl-ib { background-color: #f93 !important; } /* invalid.broken */
-.pl-id { background-color: #990000 !important; color: #FFFFFF !important; } /* invalid.deprecated */
+.pl-id { background-color: #900 !important; color: #FFF !important; } /* invalid.deprecated */
 /* invalid.illegal */
-.pl-ii { background-color: #990000 !important; color: #FFFFFF !important; }
+.pl-ii { background-color: #900 !important; color: #FFF !important; }
 .pl-iu { background-color: #b4b7b4 !important; } /* invalid.unimplemented */
 /* meta.output */
 .pl-mo { color: #969896 !important; }
